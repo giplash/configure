@@ -1,0 +1,30 @@
+[
+    {
+        "name": "hero 1",
+        "cost of the hero":"$500",
+        "cost of the instrument":"$70",
+        "cost of a suit":"$30",
+        "img":"img/hero1.jpg"
+    },
+    {
+        "name": "hero 2",
+        "cost of the hero":"$500",
+        "cost of the instrument":"$70",
+        "cost of a suit":"$30",
+        "img":"img/hero2.jpg"
+    },
+    {
+        "name": "hero 3",
+        "cost of the hero":"$500",
+        "cost of the instrument":"$70",
+        "cost of a suit":"$30",
+        "img":"img/hero3.jpg"
+    },
+    {
+        "name": "hero 4",
+        "cost of the hero":"$500",
+        "cost of the instrument":"$70",
+        "cost of a suit":"$30",
+        "img":"img/hero4.jpg"
+    }
+]

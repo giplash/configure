@@ -1,0 +1,24 @@
+{
+  "heroes":{
+    {
+      "name":"Hero 1",
+      "description":"Rabbit",
+      "img":"img/hero1.jpg"
+    },
+    {
+      "name":"Hero 2",
+      "description":"Rat",
+      "img":"img/hero2.jpg"
+    },
+    {
+      "name":"Hero 3",
+      "description":"Wolf",
+      "img":"img/hero3.jpg"
+    },
+    {
+      "name":"Hero 4",
+      "description":"Bear",
+      "img":"img/hero4.jpg"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+      "name": "hero 1",
+      "instruments":[
+        "instrument":"guitar",
+        "instrument":"drum",
+        "instrument":"flute",
+        "instrument":"harmonic"
+      ],
+      "costumes":[
+        "costume":"Stalin's costume",
+        "costume":"Duck costume",
+        "costume":"Putin's costume",
+        "costume":"costume cat"
+      ],
+      "tonalities":[
+        "tonality":"tonality 1",
+        "tonality":"tonality 2",
+        "tonality":"tonality 3",
+        "tonality":"tonality 4"
+      ],
+      "img":"img/hero1.jpg"
+  },
+  {
+      "name": "hero 2",
+      "instruments":[
+        "instrument":"guitar",
+        "instrument":"drum",
+        "instrument":"flute",
+        "instrument":"harmonic"
+      ],
+      "costumes":[
+        "costume":"Stalin's costume",
+        "costume":"Duck costume",
+        "costume":"Putin's costume",
+        "costume":"costume cat"
+      ],
+      "tonalities":[
+        "tonality":"tonality 1",
+        "tonality":"tonality 2",
+        "tonality":"tonality 3",
+        "tonality":"tonality 4"
+      ],
+      "img":"img/hero2.jpg"
+  },
+  {
+      "name": "hero 3",
+      "instruments":[
+        "instrument":"guitar",
+        "instrument":"drum",
+        "instrument":"flute",
+        "instrument":"harmonic"
+      ],
+      "costumes":[
+        "costume":"Stalin's costume",
+        "costume":"Duck costume",
+        "costume":"Putin's costume",
+        "costume":"costume cat"
+      ],
+      "tonalities":[
+        "tonality":"tonality 1",
+        "tonality":"tonality 2",
+        "tonality":"tonality 3",
+        "tonality":"tonality 4"
+      ],
+      "img":"img/hero3.jpg"
+  },
+  {
+      "name": "hero 4",
+      "instruments":[
+        "instrument":"guitar",
+        "instrument":"drum",
+        "instrument":"flute",
+        "instrument":"harmonic"
+      ],
+      "costumes":[
+        "costume":"Stalin's costume",
+        "costume":"Duck costume",
+        "costume":"Putin's costume",
+        "costume":"costume cat"
+      ],
+      "tonalities":[
+        "tonality":"tonality 1",
+        "tonality":"tonality 2",
+        "tonality":"tonality 3",
+        "tonality":"tonality 4"
+      ],
+      "img":"img/hero4.jpg"
+  }
+]

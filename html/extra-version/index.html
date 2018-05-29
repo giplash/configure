@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link rel="shortcut icon" href="img/icon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+	<div class="wrap">
+	<header>
+
+		<div class="logo">
+			<a href="home.html"><img class="graficlogo" src="img/jimuse.png" alt="Logo"></a>
+		</div>
+		<div class="signin-signup">
+			<a href="sign in.html" class="signin" target="_blank">Sign in</a>
+			<span class="or" id="top" target="_blank">or</span>
+			<a href="#" class="signup">Sign up</a>
+		</div>
+	</header>
+	<nav>
+	<ul class="topnav" id="mytopnav">
+			<li><a href="home.html">Главная</a></li>
+			<li><a href="cars for sale.html" >Проекты</a></li>
+			<li><a href="car pairs for sale.html">Что-то</a></li>
+			<li><a href="service & repair.html">Оформить заказ</a></li>
+			<li><a href="about us.html">Наша команда</a></li>
+	    </ul>
+	</nav>
+	<h2 class="title">Список героев</h2>
+	<div class="gg">
+	<div id="heroList">
+    <div class="hero">
+      <img src="img/1656ed580de620e.jpg">
+      <span class="name">Герой 1</span>
+      <label> Инструмент:
+        <select class="instrument">
+          <option value="guitar">Гитара</option>
+          <option value="violin">Скрипка</option>
+          <option value="flute">Флейта</option>
+          <option value="drums">Барабаны</option>
+          <option value="synthesizer">Синтезатор</option>
+        </select>
+      </label>
+      <label> Тональность:
+        <select class="tonality">
+          <option value="B major">Си мажор</option>
+          <option value="A major">Ля мажор</option>
+          <option value="C major">До мажор</option>
+          <option value="C minor">До минор</option>
+        </select>
+      </label>
+      <span class="cost">
+        Цена: $<span class="value">500</span>
+      </span>
+      <button class="button_form" onClick="$('#new_form').show();">Добавить</button>
+      <p class="openDiscription">Открыть описание</p>
+      <div class="discription">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quis dolorem numquam est minus repellendus nisi eligendi animi facilis voluptatum voluptatem pariatur expedita quos odit odio, itaque veritatis illo ipsam accusamus doloremque. Nostrum ea odit atque harum fugit nulla doloribus, expedita maiores suscipit eius rerum. Inventore dolores soluta in nihil, ipsam possimus impedit nostrum perferendis voluptatum modi dignissimos fugit minus quibusdam voluptate doloremque quas iure. Ipsam esse quo velit accusamus magnam quaerat? Delectus voluptatibus eos in, exercitationem voluptate animi rem, accusantium quos fugit eius iure ipsum ab assumenda omnis unde. Aliquam ullam a modi culpa voluptas excepturi commodi facere corrupti.
+      <div class="tonalityList">
+      	<p>Прослушть тональности:</p>
+      	<p><audio controls>
+      		<source src="music.mp3" type="">
+      	</audio></p>
+      	<p><audio controls>
+      		<source src="music.mp3" type="">
+      	</audio></p>
+      	<p><audio controls>
+      		<source src="music.mp3" type="">
+      	</audio></p>
+      	<p><audio controls>
+      		<source src="music.mp3" type="">
+      	</audio></p>
+      </div>
+    </div>
+
+    </div>
+
+<form action='' id="new_form">
+      <h1>Герой 1</h1>
+      <p class="krest" onClick="$('#new_form').hide();">✖</p>
+      <img class="img" src="img/1656ed580de620e.jpg">
+      <p class="p">Инструмент</p>
+      <select class="za">
+          <option value="guitar">Гитара</option>
+          <option value="violin">Скрипка</option>
+          <option value="flute">Флейта</option>
+          <option value="drums">Барабаны</option>
+          <option value="synthesizer">Синтезатор</option>
+        </select>
+      <p class="p">Костюм</p>
+      <select class="kos">
+          <option value="guitar">Костюм</option>
+          <option value="violin"></option>
+          <option value="flute"></option>
+          <option value="drums"></option>
+          <option value="synthesizer"></option>
+        </select>
+      <div class="TON">
+      <label>Тональность 1</label><input type="checkbox" class="vibor1">
+      <label>Тональность 2</label><input type="checkbox" class="vibor2">
+      <label>Тональность 3</label><input type="checkbox" class="vibor3">
+      <button class="but">Подтвердить</button>
+    </div>
+    </form>
+
+
+
+
+
+    <div class="hero">
+        <img src="img/hero2.jpg">
+        <span class="name">Герой 2</span>
+        <label> Инструмент:
+          <select class="instrument">
+            <option value="guitar">Гитара</option>
+            <option value="violin">Скрипка</option>
+            <option value="flute">Флейта</option>
+            <option value="drums">Барабаны</option>
+            <option value="synthesizer">Синтезатор</option>
+          </select>
+        </label>
+        <label> Тональность:
+          <select class="tonality">
+            <option value="B major">Си мажор</option>
+            <option value="A major">Ля мажор</option>
+            <option value="C major">До мажор</option>
+            <option value="C minor">До минор</option>
+          </select>
+        </label>
+        <span class="cost">
+          Цена: $<span class="value">400</span>
+        </span>
+        <input type="button" value="Добавить">
+        <p class="openDiscription">Открыть описание</p>
+        <div class="discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quis dolorem numquam est minus repellendus nisi eligendi animi facilis voluptatum voluptatem pariatur expedita quos odit odio, itaque veritatis illo ipsam accusamus doloremque. Nostrum ea odit atque harum fugit nulla doloribus, expedita maiores suscipit eius rerum. Inventore dolores soluta in nihil, ipsam possimus impedit nostrum perferendis voluptatum modi dignissimos fugit minus quibusdam voluptate doloremque quas iure. Ipsam esse quo velit accusamus magnam quaerat? Delectus voluptatibus eos in, exercitationem voluptate animi rem, accusantium quos fugit eius iure ipsum ab assumenda omnis unde. Aliquam ullam a modi culpa voluptas excepturi commodi facere corrupti.
+	        <div class="tonalityList">
+		      	<p>Прослушть тональности:</p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+	      	</div>
+        </div>
+      </div>
+      <div class="hero">
+          <img src="img/hero3.jpg">
+          <span class="name">Герой 3</span>
+          <label> Инструмент:
+            <select class="instrument">
+              <option value="guitar">Гитара</option>
+              <option value="violin">Скрипка</option>
+              <option value="flute">Флейта</option>
+              <option value="drums">Барабаны</option>
+              <option value="synthesizer">Синтезатор</option>
+            </select>
+          </label>
+          <label> Тональность:
+            <select class="tonality">
+              <option value="B major">Си мажор</option>
+              <option value="A major">Ля мажор</option>
+              <option value="C major">До мажор</option>
+              <option value="C minor">До минор</option>
+            </select>
+          </label>
+          <span class="cost">
+            Цена: $<span class="value">450</span>
+          </span>
+          <input type="button" value="Добавить">
+          <p class="openDiscription">Открыть описание</p>
+          <div class="discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quis dolorem numquam est minus repellendus nisi eligendi animi facilis voluptatum voluptatem pariatur expedita quos odit odio, itaque veritatis illo ipsam accusamus doloremque. Nostrum ea odit atque harum fugit nulla doloribus, expedita maiores suscipit eius rerum. Inventore dolores soluta in nihil, ipsam possimus impedit nostrum perferendis voluptatum modi dignissimos fugit minus quibusdam voluptate doloremque quas iure. Ipsam esse quo velit accusamus magnam quaerat? Delectus voluptatibus eos in, exercitationem voluptate animi rem, accusantium quos fugit eius iure ipsum ab assumenda omnis unde. Aliquam ullam a modi culpa voluptas excepturi commodi facere corrupti.
+			    <div class="tonalityList">
+		      	<p>Прослушть тональности:</p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+		      	<p><audio controls>
+		      		<source src="music.mp3" type="">
+		      	</audio></p>
+	        </div>
+        </div>
+        </div>
+        <div class="hero">
+            <img src="img/hero4.jpg">
+            <span class="name">Герой 4</span>
+            <label> Инструмент:
+              <select class="instrument">
+                <option value="guitar">Гитара</option>
+                <option value="violin">Скрипка</option>
+                <option value="flute">Флейта</option>
+                <option value="drums">Барабаны</option>
+                <option value="synthesizer">Синтезатор</option>
+              </select>
+            </label>
+            <label> Тональность:
+              <select class="tonality">
+                <option value="B major">Си мажор</option>
+                <option value="A major">Ля мажор</option>
+                <option value="C major">До мажор</option>
+                <option value="C minor">До минор</option>
+              </select>
+            </label>
+            <span class="cost">
+              Цена: $<span class="value">350</span>
+            </span>
+            <input type="button" value="Добавить">
+            <p class="openDiscription">Открыть описание</p>
+            <div class="discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quis dolorem numquam est minus repellendus nisi eligendi animi facilis voluptatum voluptatem pariatur expedita quos odit odio, itaque veritatis illo ipsam accusamus doloremque. Nostrum ea odit atque harum fugit nulla doloribus, expedita maiores suscipit eius rerum. Inventore dolores soluta in nihil, ipsam possimus impedit nostrum perferendis voluptatum modi dignissimos fugit minus quibusdam voluptate doloremque quas iure. Ipsam esse quo velit accusamus magnam quaerat? Delectus voluptatibus eos in, exercitationem voluptate animi rem, accusantium quos fugit eius iure ipsum ab assumenda omnis unde. Aliquam ullam a modi culpa voluptas excepturi commodi facere corrupti.
+				<div class="tonalityList">
+			      	<p>Прослушть тональности:</p>
+			      	<p><audio controls>
+			      		<source src="music.mp3" type="">
+			      	</audio></p>
+			      	<p><audio controls>
+			      		<source src="music.mp3" type="">
+			      	</audio></p>
+			      	<p><audio controls>
+			      		<source src="music.mp3" type="">
+			      	</audio></p>
+			      	<p><audio controls>
+			      		<source src="music.mp3" type="">
+			      	</audio></p>
+      			</div>
+            </div>
+          </div>
+	</div>
+  	<div class="orderList">
+  		<p>Героев выбрано на</p>
+      <p class="cost">$0</p>
+	  	</div>
+  	</div>
+  </div>
+</div>
+	<div class="return" id="return">
+		<a href="#" onclick="return up()"><img src="img/up.png"></a>
+		</div>
+	<div class="next">
+		<button>Далее &raquo;</button>
+	</div>
+  	<footer>
+		<div class="social">
+			<a href="#"><img src="img/social_icons/em.png" alt="Email"></a>
+			<a href="#"><img src="img/social_icons/face.png" class="v" alt="Facebook"></a>
+			<a href="#"><img src="img/social_icons/goo.png" class="v" alt="Google+"></a>
+			<a href="#"><img src="img/social_icons/inst.png" class="v" alt="Instagram"></a>
+			<a href="#"><img src="img/social_icons/pint.png" class="v" alt="Pinterest"></a>
+			<a href="#"><img src="img/social_icons/vk.png" class="v" alt="Vkontakte"></a>
+		</div>
+		<p>&copy; Jimuse.2018</p>
+	</footer>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script async="" type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.js"></script>
+  <script type="text/javascript" src="js/retutn1.js"></script>
+</body>
+</html>
