@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/api.css">
+</head>
+<body>
+  
+    <% for (let i = 0; i < heroes.length; i++) { %>
+        <div class="hero">
+            <img src="<%= heroes[i].img %>" alt="hero" height="200px">
+            <h3 class="heroName"><%= heroes[i].name %></h3>
+            <h5>Description:</h5>
+            <p class="description"><%= heroes[i].description %></p>
+            <p>id = <span class="id"><%= heroes[i].id %></span></p>
+        </div>
+    <% } %>
+</body>
+</html>
