@@ -1,0 +1,111 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: Jimuse-configure App
+# during dev, should point to your local machine
+host: localhost:10010
+# basePath prefixes all resource paths 
+basePath: /api/v1
+# 
+schemes:
+  # tip: remove http to make production-grade
+  - http
+  - https
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /heroes:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: get_heroes
+    get:
+      description: List of heroes
+      # used as the method name of the controller
+      operationId: getHeroes
+      parameters:
+        - name: name
+          in: query
+          description: The name of heroes on the page
+          type: string
+        - name: pageSize
+          in: query
+          description: Number of products returned
+          type: number
+          format: integer
+        - name: pageNumber
+          in: query
+          description: Page number
+          type: number
+          format: integer
+      responses:
+        200:
+          description: Success
+          schema:
+            type: array
+            items:
+             $ref: "#/definitions/Product"
+        # responses may fall through to errors
+            
+  /hero/{heroId}:
+  # binds a127 app logic to a route
+   x-swagger-router-controller: get_hero
+   get:
+    summary: Gets a certain product
+    description: Single product for its ID
+    operationId: getHero
+    parameters:
+     - name: heroId
+       in: path
+       required: true
+       description: The hero's id
+       type: string
+    responses:
+     200:
+      description: Hero
+      schema:
+       $ref: "#/definitions/Product"
+     404:
+      description: The hero does not exists.
+  /swagger:
+   x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+ Product:
+  type: object
+  properties:
+   name: 
+    type: string
+    description: Short name of the product
+   description:
+    type: string
+    description: Full description of the product
+   price:
+    type: number
+    format: float
+    description: Price in a given currency
+   data:
+    type: number
+    format: float
+    description: Time when the product was added to the site
+   image:
+    type: string
+    description: Image URL representing the product.
+   music:
+    type: string
+    description: Music that brings tone templates
+   instruments:
+    type: string
+    description: Select instrument
+   costumes:
+    type: string
+    description: Select costume
+ Error:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+
